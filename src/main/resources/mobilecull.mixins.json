@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.mobilecull.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MixinWorldRenderer",
+    "MixinEntityRenderDispatcher",
+    "MixinBlockEntityRenderDispatcher",
+    "MixinParticle"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+
